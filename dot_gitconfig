@@ -1,0 +1,5 @@
+[user]
+	email = w_mateusz@hotmail.com
+	name = Mateusz Wojtyna
+[core]
+	editor = nvim
