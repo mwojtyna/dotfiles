@@ -3,3 +3,4 @@
 	name = Mateusz Wojtyna
 [core]
 	editor = nvim
+	autocrlf = false
