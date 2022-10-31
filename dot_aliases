@@ -1,4 +1,4 @@
-alias watch="watch --color"
+alias watch="watch -n1 --color"
 
 alias la="ls -A"
 alias lsl="ls -lFh"
