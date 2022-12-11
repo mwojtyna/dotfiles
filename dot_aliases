@@ -1,4 +1,5 @@
 alias watch="watch -n1 --color"
+alias git='LC_ALL=en_GB git'
 
 alias la="ls -A"
 alias lsl="ls -lFh"
