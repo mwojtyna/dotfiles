@@ -6,3 +6,4 @@ alias la="ls -A"
 alias lsl="ls -lFh"
 alias lal="ls -alFh"
 
+alias gdu="gdu-go"
