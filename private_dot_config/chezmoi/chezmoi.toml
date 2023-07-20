@@ -1,4 +1,4 @@
 [edit]
-    command = "vim"
+    command = "nvim"
 [diff]
     pager = "delta"

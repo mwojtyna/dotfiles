@@ -2,7 +2,7 @@
 	email = w_mateusz@hotmail.com
 	name = Mateusz Wojtyna
 [core]
-	editor = vim
+	editor = nvim
 	autocrlf = false
 	pager = delta
 [init]
