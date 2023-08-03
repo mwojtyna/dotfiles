@@ -1,9 +1,7 @@
 alias watch="watch -n1 --color"
-alias git='LC_ALL=en_GB git'
 alias vim="nvim"
 
 alias la="ls -A"
 alias lsl="ls -lFh"
 alias lal="ls -alFh"
 
-alias gdu="gdu-go"
