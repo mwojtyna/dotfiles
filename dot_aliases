@@ -1,5 +1,6 @@
 alias watch="watch -n1 --color"
 alias vim="nvim"
+alias icat="kitty +kitten icat"
 
 alias la="ls -A"
 alias lsl="ls -lFh"
