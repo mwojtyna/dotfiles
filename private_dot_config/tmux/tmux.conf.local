@@ -449,6 +449,8 @@ set -g @continuum-restore 'off'
 # # /!\ do not remove the previous line
 
 # Bind Alt+1 through Alt+0 to switch windows
+unbind C-h
+unbind C-l
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
 bind -n M-3 select-window -t 3
@@ -462,3 +464,6 @@ bind -n M-0 select-window -t 10
 
 # Fix undercurl not working
 set -g default-terminal 'xterm-kitty'
+
+# Disable timeout between prefix key and command key
+set-option -g repeat-time 0
