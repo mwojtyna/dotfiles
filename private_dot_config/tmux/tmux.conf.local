@@ -467,3 +467,6 @@ set -g default-terminal 'xterm-kitty'
 
 # Disable timeout between prefix key and command key
 set-option -g repeat-time 0
+
+# Fix image.nvim
+set -gq allow-passthrough on
