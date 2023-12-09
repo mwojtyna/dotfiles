@@ -4,7 +4,7 @@
 [core]
 	editor = nvim
 	autocrlf = false
-	pager = delta
+	pager = delta --tabs 4
 [init]
 	defaultBranch = main
 [pull]
@@ -20,5 +20,3 @@
 	navigate = true
 	light = false
 
-[credential]
-	helper = "!f() { /home/pwuser/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node /tmp/vscode-remote-containers-ddd364db-0cd1-4df1-8008-cc7f77123e6b.js git-credential-helper $*; }; f"
