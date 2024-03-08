@@ -3,7 +3,6 @@
 " You can find a list of commands here: https://jb.gg/h38q75
 " Find more examples here: https://jb.gg/share-ideavimrc
 
-
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
@@ -22,7 +21,6 @@ Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
 Plug 'tpope/vim-commentary'
 
-
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
 "map \r <Action>(ReformatCode)
@@ -35,11 +33,34 @@ Plug 'tpope/vim-commentary'
 
 set surround
 set relativenumber
-
 set visualbell
 set noerrorbells
+set ideajoin
+set hls
+
+let mapleader = " "
 
 nnoremap H _
 nnoremap L $
 vnoremap H _
 vnoremap L $
+nnoremap <Esc> :noh<CR>
+
+nnoremap ]d :action GotoNextError<CR>
+nnoremap [d :action GotoPreviousError<CR>
+nnoremap <leader>d :action ShowErrorDescription<CR>
+nnoremap <leader>fs :action GotoFile<CR>
+nnoremap <leader>fw :action FindInPath<CR>
+nnoremap <leader>s :action Run<CR>
+nnoremap <leader>S :action Stop<CR>
+nnoremap <leader>r :action Rerun<CR>
+nnoremap <leader>a :action ShowIntentionActions<CR>
+nnoremap <leader>lf :action ReformatCode<CR>
+
+nnoremap <leader>h :action ShowHarpoon<CR>
+nnoremap <leader>m :action AddToHarpoon<CR>
+nnoremap <leader>1 :action GotoHarpoon1<cr>
+nnoremap <leader>2 :action GotoHarpoon2<cr>
+nnoremap <leader>3 :action GotoHarpoon3<cr>
+nnoremap <leader>4 :action GotoHarpoon4<cr>
+nnoremap <leader>5 :action GotoHarpoon5<cr>
