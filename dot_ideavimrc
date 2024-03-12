@@ -62,6 +62,7 @@ nnoremap <leader>c :action CompileFile<CR>
 nnoremap <leader>a :action ShowIntentionActions<CR>
 nnoremap <leader>lf :action ReformatCode<CR>
 nnoremap <leader>r :action RenameElement<CR>
+nnoremap <leader>gh :action Vcs.RollbackChangedLines<CR>
 
 nnoremap <leader>h :action ShowHarpoon<CR>
 nnoremap <leader>m :action AddToHarpoon<CR>
