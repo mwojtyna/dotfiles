@@ -41,33 +41,31 @@ set clipboard=unnamedplus
 
 let mapleader = " "
 
-nnoremap H _
-nnoremap L $
-vnoremap H _
-vnoremap L $
-nnoremap <Esc> :noh<CR>
-nnoremap <C-H> <C-w><C-H>
-nnoremap <C-J> <C-w><C-J>
-nnoremap <C-K> <C-w><C-K>
-nnoremap <C-L> <C-w><C-L>
+map H _
+map L $
+map <Esc> :noh<CR>
+map <C-H> <C-w><C-H>
+map <C-J> <C-w><C-J>
+map <C-K> <C-w><C-K>
+map <C-L> <C-w><C-L>
 
-nnoremap ]d :action GotoNextError<CR>
-nnoremap [d :action GotoPreviousError<CR>
-nnoremap <leader>d :action ShowErrorDescription<CR>
-nnoremap <leader>fs :action GotoFile<CR>
-nnoremap <leader>fw :action FindInPath<CR>
-nnoremap <leader>s :action Run<CR>
-nnoremap <leader>S :action Stop<CR>
-nnoremap <leader>c :action CompileFile<CR>
-nnoremap <leader>a :action ShowIntentionActions<CR>
-nnoremap <leader>lf :action ReformatCode<CR>
-nnoremap <leader>r :action RenameElement<CR>
-nnoremap <leader>gh :action Vcs.RollbackChangedLines<CR>
+map ]d :action GotoNextError<CR>
+map [d :action GotoPreviousError<CR>
+map <leader>d :action ShowErrorDescription<CR>
+map <leader>fs :action GotoFile<CR>
+map <leader>fw :action FindInPath<CR>
+map <leader>s :action Run<CR>
+map <leader>S :action Stop<CR>
+map <leader>c :action CompileFile<CR>
+map <leader>a :action ShowIntentionActions<CR>
+map <leader>lf :action ReformatCode<CR>
+map <leader>r :action RenameElement<CR>
+map <leader>gh :action Vcs.RollbackChangedLines<CR>
 
-nnoremap <leader>h :action ShowHarpoon<CR>
-nnoremap <leader>m :action AddToHarpoon<CR>
-nnoremap <leader>1 :action GotoHarpoon1<cr>
-nnoremap <leader>2 :action GotoHarpoon2<cr>
-nnoremap <leader>3 :action GotoHarpoon3<cr>
-nnoremap <leader>4 :action GotoHarpoon4<cr>
-nnoremap <leader>5 :action GotoHarpoon5<cr>
+map <leader>h :action ShowHarpoon<CR>
+map <leader>m :action AddToHarpoon<CR>
+map <leader>1 :action GotoHarpoon1<CR>
+map <leader>2 :action GotoHarpoon2<CR>
+map <leader>3 :action GotoHarpoon3<CR>
+map <leader>4 :action GotoHarpoon4<CR>
+map <leader>5 :action GotoHarpoon5<CR>
