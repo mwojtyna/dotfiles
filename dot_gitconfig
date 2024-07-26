@@ -15,8 +15,10 @@
 	conflictstyle = diff3
 [diff]
 	colorMoved = default
-
 [delta]
 	navigate = true
 	light = false
-
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
