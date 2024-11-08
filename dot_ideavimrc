@@ -58,7 +58,7 @@ map <leader>s :action Run<CR>
 map <leader>S :action Stop<CR>
 map <leader>c :action CompileFile<CR>
 map <leader>a :action ShowIntentionActions<CR>
-map <leader>lf :action ReformatCode<CR>
+map <leader>ff :action ReformatCode<CR>
 map <leader>r :action RenameElement<CR>
 map <leader>gh :action Vcs.RollbackChangedLines<CR>
 
