@@ -1,6 +1,7 @@
 [user]
 	email = w_mateusz@hotmail.com
 	name = Mateusz Wojtyna
+	signingkey = ~/.ssh/github_sig_ed25519
 [core]
 	editor = nvim
 	autocrlf = false
@@ -22,3 +23,5 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[rerere]
+	enabled = true
