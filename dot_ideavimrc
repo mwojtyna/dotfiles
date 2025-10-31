@@ -38,6 +38,7 @@ set noerrorbells
 set ideajoin
 set hls
 set clipboard=unnamedplus
+set idearefactormode=keep " Keep same mode when entering refactor mode
 
 let mapleader = " "
 
