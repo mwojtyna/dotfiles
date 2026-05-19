@@ -39,6 +39,8 @@ set ideajoin
 set hls
 set clipboard=unnamedplus
 set idearefactormode=keep " Keep same mode when entering refactor mode
+set ignorecase
+set smartcase
 
 let mapleader = " "
 
@@ -62,6 +64,7 @@ map <leader>a :action ShowIntentionActions<CR>
 map <leader>ff :action ReformatCode<CR>
 map <leader>r :action RenameElement<CR>
 map <leader>gh :action Vcs.RollbackChangedLines<CR>
+map gr :action FindUsages<CR>
 
 map <leader>h :action ShowHarpoon<CR>
 map <leader>m :action AddToHarpoon<CR>
